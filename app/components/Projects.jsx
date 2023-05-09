@@ -1,6 +1,7 @@
 'use client';
 import Project from './Project';
 import useEmblaCarousel from 'embla-carousel-react';
+import CarouselIndex from './CarouselIndex';
 import {
   MdKeyboardDoubleArrowRight,
   MdKeyboardDoubleArrowLeft,
@@ -142,15 +143,24 @@ const Projects = () => {
           ))}
         </div>
       </div>
-      <MdKeyboardDoubleArrowLeft
-        className="absolute z-100 top-[55%] left-[3%] md:left-[10%] disabled:opacity-0"
-        onClick={scrollPrev}
-        size={50}
-      />
-      <MdKeyboardDoubleArrowRight
-        className="absolute z-100 top-[55%] right-[3%] md:right-[10%] disabled:opacity-0"
-        onClick={scrollNext}
-        size={50}
+      {prevBtnEnabled && (
+        <MdKeyboardDoubleArrowLeft
+          className="absolute z-100 top-[55%] left-[3%] md:left-[10%] disabled:opacity-0"
+          onClick={scrollPrev}
+          size={50}
+        />
+      )}
+      {nextBtnEnabled && (
+        <MdKeyboardDoubleArrowRight
+          className="absolute z-100 top-[55%] right-[3%] md:right-[10%] disabled:opacity-0"
+          onClick={scrollNext}
+          size={50}
+        />
+      )}
+      <CarouselIndex
+        projects={projects}
+        selectedIndex={selectedIndex}
+        scrollTo={scrollTo}
       />
     </div>
   );
