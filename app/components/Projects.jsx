@@ -131,43 +131,48 @@ const Projects = () => {
   }, [emblaApi, onSelect]);
 
   return (
-    <div id="projects" className="my-20 w-full overflow-hidden relative">
-      <h2 className="md:text-2xl sm:text-xl text-md md:tracking-[18px] tracking-[10px] pb-2 uppercase text-center my-10">
-        Projects
-      </h2>
-      <div id="embla" ref={emblaRef}>
-        <div
-          id="embla_container"
-          className="flex space-x-5 min-h-[60vh] max-h-fit"
-        >
-          {projects.map((project, idx) => (
-            <Project
-              key={idx}
-              project={project}
-              selected={idx === selectedIndex}
-            />
-          ))}
+    <div
+      id="projects"
+      className="relative w-full md:h-screen py-12 flex flex-col items-center text-center"
+    >
+      <div className="my-10 w-full overflow-hidden relative">
+        <h2 className="md:text-2xl sm:text-xl text-md md:tracking-[18px] tracking-[10px] pb-2 uppercase text-center my-4">
+          Projects
+        </h2>
+        <div id="embla" ref={emblaRef}>
+          <div
+            id="embla_container"
+            className="flex space-x-5 min-h-[60vh] max-h-fit"
+          >
+            {projects.map((project, idx) => (
+              <Project
+                key={idx}
+                project={project}
+                selected={idx === selectedIndex}
+              />
+            ))}
+          </div>
         </div>
+        {prevBtnEnabled && (
+          <MdKeyboardDoubleArrowLeft
+            className="absolute z-100 top-[55%] left-[3%] md:left-[10%] disabled:opacity-0"
+            onClick={scrollPrev}
+            size={50}
+          />
+        )}
+        {nextBtnEnabled && (
+          <MdKeyboardDoubleArrowRight
+            className="absolute z-100 top-[55%] right-[3%] md:right-[10%] disabled:opacity-0"
+            onClick={scrollNext}
+            size={50}
+          />
+        )}
+        <CarouselIndex
+          projects={projects}
+          selectedIndex={selectedIndex}
+          scrollTo={scrollTo}
+        />
       </div>
-      {prevBtnEnabled && (
-        <MdKeyboardDoubleArrowLeft
-          className="absolute z-100 top-[55%] left-[3%] md:left-[10%] disabled:opacity-0"
-          onClick={scrollPrev}
-          size={50}
-        />
-      )}
-      {nextBtnEnabled && (
-        <MdKeyboardDoubleArrowRight
-          className="absolute z-100 top-[55%] right-[3%] md:right-[10%] disabled:opacity-0"
-          onClick={scrollNext}
-          size={50}
-        />
-      )}
-      <CarouselIndex
-        projects={projects}
-        selectedIndex={selectedIndex}
-        scrollTo={scrollTo}
-      />
     </div>
   );
 };

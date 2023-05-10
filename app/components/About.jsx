@@ -8,7 +8,7 @@ const About = () => {
         <h2 className="md:text-2xl sm:text-xl text-md md:tracking-[18px] tracking-[10px] pb-2 uppercase">
           About
         </h2>
-        <div className="px-16 py-4">
+        <div className="px-40 flex flex-col gap-5">
           <p className="py-4 md:text-xl sm:text-md text-md">
             Glad to see you on my portfolio! I just finished my remote Software
             Engineering Imemrsive at General Assembly. I am now looking for
@@ -19,9 +19,12 @@ const About = () => {
           <p className="py-4 md:text-xl sm:text-md text-md">
             Before I got into coding, I was studying law in Germany and an MBA
             at RMIT in Vietnam (it is an Austrialian University though - long
-            story!). Why the career change? I love new challenges and felt that
-            my values have better alignment in this industry than in the
-            business and legal field.
+            story!).
+          </p>
+          <p className="py-4 md:text-xl sm:text-md text-md">
+            Why the career change? I love new challenges and felt that my values
+            have better alignment in this industry than in the business and
+            legal field.
           </p>
         </div>
       </section>
