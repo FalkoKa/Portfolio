@@ -131,7 +131,7 @@ const Projects = () => {
   }, [emblaApi, onSelect]);
 
   return (
-    <div className="my-20 w-full overflow-hidden relative">
+    <div id="projects" className="my-20 w-full overflow-hidden relative">
       <h2 className="md:text-2xl sm:text-xl text-md md:tracking-[18px] tracking-[10px] pb-2 uppercase text-center my-10">
         Projects
       </h2>

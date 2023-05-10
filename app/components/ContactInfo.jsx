@@ -10,7 +10,7 @@ const ContactInfo = () => {
           <IoLocationSharp className="text-xl md:text-2xl" />
           <p className="text-md">Germany - happy to relocate!</p>
         </div>
-        <Link href={'mail:falkokammel@googlemail.com'}>
+        <Link href={'mailto:falkokammel@googlemail.com'}>
           <div className="flex items-center justify-left space-x-5 my-1 w-fit">
             <IoIosMail className="text-xl md:text-2xl" />
             <p className="text-md">falkokammel@googlemail.com</p>
@@ -27,7 +27,7 @@ const ContactInfo = () => {
           </div>
         </Link>
         <Link
-          href={'ttps://www.linkedin.com/in/falko-kammel/'}
+          href={'https://www.linkedin.com/in/falko-kammel/'}
           target="_blank"
           rel="noreferrer noopener"
         >

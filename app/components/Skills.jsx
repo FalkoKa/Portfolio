@@ -17,7 +17,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="relative w-full md:h-screen p-2">
+    <div id="skills" className="relative w-full md:h-screen p-2">
       <section className="max-w-[700px] m-auto text-center flex flex-col justify-center h-full">
         <h2 className="md:text-2xl sm:text-xl text-md md:tracking-[18px] tracking-[10px] pb-2 uppercase">
           Skills

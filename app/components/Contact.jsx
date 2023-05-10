@@ -4,7 +4,10 @@ import Footer from './Footer';
 
 const Contact = () => {
   return (
-    <div className="relative w-full md:h-screen flex items-center text-center m-auto">
+    <div
+      id="contact"
+      className="relative w-full md:h-screen flex items-center text-center m-auto"
+    >
       <section className="max-w-[1240px] min-w-[500px] m-auto">
         <h2 className="md:text-2xl sm:text-xl my-6 text-md md:tracking-[18px] tracking-[10px] pb-2 uppercase">
           Contact

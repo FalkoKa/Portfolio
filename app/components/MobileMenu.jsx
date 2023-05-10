@@ -17,19 +17,19 @@ const MobileMenu = ({ handleNav }) => {
       </div>
       <div className="py-4 flex flex-col ">
         <ul className="uppercase">
-          <Link href="/">
+          <Link href="/#into">
             <li className="py-4 text-sm">Intro</li>
           </Link>
-          <Link href="/">
+          <Link href="/#about">
             <li className="py-4 text-sm">About</li>
           </Link>
-          <Link href="/">
+          <Link href="/#skills">
             <li className="py-4 text-sm">Skills</li>
           </Link>
-          <Link href="/">
+          <Link href="/#projects">
             <li className="py-4 text-sm">Projects</li>
           </Link>
-          <Link href="/">
+          <Link href="/#contact">
             <li className="py-4 text-sm">Contact</li>
           </Link>
           <Link href="/">
