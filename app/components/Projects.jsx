@@ -69,9 +69,9 @@ const projects = [
   },
   {
     name: 'Servo API',
-    img: '/../public/assets/projects/shop-inventory.png',
+    img: '/../public/assets/projects/servoapi.png',
     description:
-      'App utilyzing google maps API to show where you are and find the closest service gas station based off the location you search (for Australia). Commodities API. PostgreSQL for storing gas stations.',
+      'App utilizing google maps API to show where you are and find the closest service gas station based off the location you search (for Australia). Commodities API. PostgreSQL for storing gas stations.',
     githubLink: 'https://github.com/FalkoKa/servo_api',
     projectLink: '',
     stack: [js, react, css, postgres, git],
