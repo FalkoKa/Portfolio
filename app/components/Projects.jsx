@@ -7,6 +7,11 @@ import {
   MdKeyboardDoubleArrowLeft,
 } from 'react-icons/md';
 import { useState, useCallback, useEffect } from 'react';
+import ecom from './../../public/assets/projects/e-com-clone.png';
+import shopinventory from './../../public/assets/projects/shop-inventory.png';
+import servo from './../../public/assets/projects/servoapi.png';
+import etch from './../../public/assets/projects/etch-a-sketch.png';
+import tictactoe from './../../public/assets/projects/tic-tac-toe.png';
 
 const stack = [
   '/../public/assets/skills/javascript.png',
@@ -41,7 +46,7 @@ const [
 const projects = [
   {
     name: 'E-Commerce Clone',
-    img: '/../public/assets/projects/e-com-clone.png',
+    img: ecom,
     description:
       'Zalando e-commerce clone, built with ReactJS. NodeJS, ExpressJS REST API as the backend. JWT for authentication, bcrypt for password encryption.',
     githubLink: 'https://github.com/FalkoKa/e-commerce_clone_react',
@@ -50,7 +55,7 @@ const projects = [
   },
   {
     name: 'Weather App',
-    img: '/../public/assets/projects/e-com-clone.png',
+    img: ecom,
     description:
       'React weather app (open weather API) with Alan AI voice command and EmailJS temperature drop reminder.',
     githubLink: 'https://github.com/FalkoKa/weather-app',
@@ -60,7 +65,7 @@ const projects = [
 
   {
     name: 'Shop Inventory App',
-    img: '/../public/assets/projects/shop-inventory.png',
+    img: shopinventory,
     description:
       'SSR inventory app with built with EJS with NodeJS and ExpressJS backend and sessions for login, bcrypt for password encryption.',
     githubLink: 'https://github.com/FalkoKa/Shop-Inventory',
@@ -69,7 +74,7 @@ const projects = [
   },
   {
     name: 'Servo API',
-    img: '/../public/assets/projects/servoapi.png',
+    img: servo,
     description:
       'App utilizing google maps API to show where you are and find the closest service gas station based off the location you search (for Australia). Commodities API. PostgreSQL for storing gas stations.',
     githubLink: 'https://github.com/FalkoKa/servo_api',
@@ -78,7 +83,7 @@ const projects = [
   },
   {
     name: 'Tic Tac Toe',
-    img: '/../public/assets/projects/tic-tac-toe.png',
+    img: tictactoe,
     description:
       '2-Player Tic Tac Toe game, built with Vanilla JS, HTML and CSS.',
     githubLink: 'https://github.com/FalkoKa/Project-Tic-Tac-Toe',
@@ -87,7 +92,7 @@ const projects = [
   },
   {
     name: 'Etch A Sketch',
-    img: '/../public/assets/projects/etch-a-sketch.png',
+    img: etch,
     description:
       'Etch a sketch drawing bord, changable field size and different color modes. Built with Vanilla JS, HTML and CSS.',
     githubLink: 'https://github.com/FalkoKa/Etch-a-Sketch',
