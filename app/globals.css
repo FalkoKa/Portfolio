@@ -33,6 +33,11 @@
   }
 
   button:hover {
-    @apply bg-gray-400 border-gray-400 rounded-md p-3 uppercase text-white;
+    @apply bg-[#172828] border-[#172828] rounded-md p-3 uppercase text-white;
+  }
+
+  input,
+  textarea {
+    @apply outline-none bg-[#172828] bg-opacity-70 rounded-md p-2 text-white;
   }
 }
