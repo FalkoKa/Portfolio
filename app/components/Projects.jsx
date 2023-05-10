@@ -42,7 +42,8 @@ const projects = [
   {
     name: 'E-Commerce Clone',
     img: '/../public/assets/projects/e-com-clone.png',
-    description: '...',
+    description:
+      'Zalando e-commerce clone, built with ReactJS. NodeJS, ExpressJS REST API as the backend. JWT for authentication, bcrypt for password encryption.',
     githubLink: 'https://github.com/FalkoKa/e-commerce_clone_react',
     projectLink: 'https://zalando-clone.netlify.app/',
     stack: [js, react, express, node, css, mongodb],
@@ -50,8 +51,9 @@ const projects = [
   {
     name: 'Weather App',
     img: '/../public/assets/projects/e-com-clone.png',
-    description: '...',
-    githubLink: '',
+    description:
+      'React weather app (open weather API) with Alan AI voice command and EmailJS temperature drop reminder.',
+    githubLink: 'https://github.com/FalkoKa/weather-app',
     projectLink: '',
     stack: [js, react, css, git],
   },
@@ -59,7 +61,8 @@ const projects = [
   {
     name: 'Shop Inventory App',
     img: '/../public/assets/projects/shop-inventory.png',
-    description: '...',
+    description:
+      'SSR inventory app with built with EJS with NodeJS and ExpressJS backend and sessions for login, bcrypt for password encryption.',
     githubLink: 'https://github.com/FalkoKa/Shop-Inventory',
     projectLink: 'https://shopinventoryapp.onrender.com/',
     stack: [js, node, express, css, postgres],
@@ -67,7 +70,8 @@ const projects = [
   {
     name: 'Servo API',
     img: '/../public/assets/projects/shop-inventory.png',
-    description: '...',
+    description:
+      'App utilyzing google maps API to show where you are and find the closest service gas station based off the location you search (for Australia). Commodities API. PostgreSQL for storing gas stations.',
     githubLink: 'https://github.com/FalkoKa/servo_api',
     projectLink: '',
     stack: [js, react, css, postgres, git],
@@ -75,19 +79,21 @@ const projects = [
   {
     name: 'Tic Tac Toe',
     img: '/../public/assets/projects/tic-tac-toe.png',
-    description: '...',
+    description:
+      '2-Player Tic Tac Toe game, built with Vanilla JS, HTML and CSS.',
     githubLink: 'https://github.com/FalkoKa/Project-Tic-Tac-Toe',
     projectLink: '',
-    stack: [js, react, css, postgres, git],
+    stack: [js, html, css],
   },
   {
     name: 'Etch A Sketch',
     img: '/../public/assets/projects/etch-a-sketch.png',
-    description: '...',
+    description:
+      'Etch a sketch drawing bord, changable field size and different color modes. Built with Vanilla JS, HTML and CSS.',
     githubLink: 'https://github.com/FalkoKa/Etch-a-Sketch',
     projectLink:
       'https://rawcdn.githack.com/FalkoKa/Etch-a-Sketch/576eab97f4056f3042da24b37bd1e3acba55335a/index.html',
-    stack: [js, react, css, postgres, git],
+    stack: [js, html, css],
   },
 ];
 

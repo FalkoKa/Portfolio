@@ -7,21 +7,25 @@ import TechStack from './TechStack';
 const Project = ({ project, selected }) => {
   return (
     <article
-      className={`relative flex flex-col items-center justify-center flex-shrink-0 w-full md:w-[85%] px-8 md:px-14 md:bg-gray-200 md:rounded-xl transition-opacity duration-200 m-0 pb-10 space-y-3 md:space-y-0 ${
+      className={`relative flex flex-col gap-1 items-center justify-center flex-shrink-0 w-full md:w-[80%] px-8 md:px-24 md:bg-gray-200 md:rounded-xl transition-opacity duration-200 m-0 pb-10 space-y-3 md:space-y-0 ${
         selected ? 'opacity-100' : 'opacity-40'
       }`}
     >
-      <Image src={project.img} alt={project.name} height={200} width={300} />
-      <h2>{project.name}</h2>
-      <p>{project.description}</p>
+      <h3 className="m-4">{project.name}</h3>
+      <Image src={project.img} alt={project.name} height={300} width={500} />
+      <p className="text-sm">{project.description}</p>
       <TechStack stack={project.stack} />
-      <div className="">
+      <div className="flex gap-2 absolute top-0 right-[10%] md:top-6 lg:top-8">
         <Link href={project.githubLink}>
-          <IoLogoGithub />
+          <IoLogoGithub size={30} />
         </Link>
-        <Link href={project.projectLink}>
-          <GoLinkExternal />
-        </Link>
+        {project.projectLink.length > 0 ? (
+          <Link href={project.projectLink}>
+            <GoLinkExternal size={30} />
+          </Link>
+        ) : (
+          ''
+        )}
       </div>
     </article>
   );
