@@ -1,18 +1,30 @@
 import Skill from './Skill';
+import js from './../../public/assets/skills/javascript.png';
+import reactjs from './../../public/assets/skills/react.png';
+import expressjs from './../../public/assets/skills/expressjs.png';
+import nodejs from './../../public/assets/skills/node.png';
+import nextjs from './../../public/assets/skills/nextjs.png';
+import html from './../../public/assets/skills/html.png';
+import css from './../../public/assets/skills/css.png';
+import tailwindcss from './../../public/assets/skills/tailwind.png';
+import mongodb from './../../public/assets/skills/mongodb.png';
+import postgresql from './../../public/assets/skills/postgresql.png';
+import firebase from './../../public/assets/skills/firebase.png';
+import git from './../../public/assets/skills/git.png';
 
-const skills = [
-  ['Javascript', '/../public/assets/skills/javascript.png'],
-  ['ReactJS', '/../public/assets/skills/react.png'],
-  ['ExpressJS', '/../public/assets/skills/expressjs.png'],
-  ['NodeJS', '/../public/assets/skills/node.png'],
-  ['NextJS', '/../public/assets/skills/nextjs.png'],
-  ['HTML', '/../public/assets/skills/html.png'],
-  ['CSS', '/../public/assets/skills/css.png'],
-  ['Tailwind CSS', '/../public/assets/skills/tailwind.png'],
-  ['MongoDB', '/../public/assets/skills/mongo.png'],
-  ['PostgreSQL', '/../public/assets/skills/postgresql.png'],
-  ['Firebase', '/../public/assets/skills/firebase.png'],
-  ['Git', '/../public/assets/skills/git.png'],
+export const skills = [
+  ['Javascript', js],
+  ['ReactJS', reactjs],
+  ['ExpressJS', expressjs],
+  ['NodeJS', nodejs],
+  ['NextJS', nextjs],
+  ['HTML', html],
+  ['CSS', css],
+  ['Tailwind CSS', tailwindcss],
+  ['MongoDB', mongodb],
+  ['PostgreSQL', postgresql],
+  ['Firebase', firebase],
+  ['Git', git],
 ];
 
 const Skills = () => {

@@ -12,21 +12,7 @@ import shopinventory from './../../public/assets/projects/shop-inventory.png';
 import servo from './../../public/assets/projects/servoapi.png';
 import etch from './../../public/assets/projects/etch-a-sketch.png';
 import tictactoe from './../../public/assets/projects/tic-tac-toe.png';
-
-const stack = [
-  '/../public/assets/skills/javascript.png',
-  '/../public/assets/skills/react.png',
-  '/../public/assets/skills/expressjs.png',
-  '/../public/assets/skills/node.png',
-  '/../public/assets/skills/nextjs.png',
-  '/../public/assets/skills/html.png',
-  '/../public/assets/skills/css.png',
-  '/../public/assets/skills/tailwind.png',
-  '/../public/assets/skills/mongo.png',
-  '/../public/assets/skills/postgresql.png',
-  '/../public/assets/skills/firebase.png',
-  '/../public/assets/skills/git.png',
-];
+import { skills } from './Skills';
 
 const [
   js,
@@ -41,7 +27,7 @@ const [
   postgres,
   firebase,
   git,
-] = stack;
+] = skills;
 
 const projects = [
   {
