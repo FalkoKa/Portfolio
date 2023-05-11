@@ -12,6 +12,7 @@ import shopinventory from './../../public/assets/projects/shop-inventory.png';
 import servo from './../../public/assets/projects/servoapi.png';
 import etch from './../../public/assets/projects/etch-a-sketch.png';
 import tictactoe from './../../public/assets/projects/tic-tac-toe.png';
+import weatherapp from './../../public/assets/projects/weatherapp.png';
 import { skills } from './Skills';
 
 const [
@@ -41,9 +42,9 @@ const projects = [
   },
   {
     name: 'Weather App',
-    img: ecom,
+    img: weatherapp,
     description:
-      'React weather app (open weather API) with Alan AI voice command and EmailJS temperature drop reminder.',
+      'React weather app (open weather API) with Alan AI voice command and EmailJS temperature drop reminder. Allows users to add locations to their watch list and get the current weather information. Includes a real-time weather map',
     githubLink: 'https://github.com/FalkoKa/weather-app',
     projectLink: '',
     stack: [js, react, css, git],
