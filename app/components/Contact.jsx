@@ -8,7 +8,7 @@ const Contact = () => {
       id="contact"
       className="relative w-full md:h-screen flex items-center text-center m-auto"
     >
-      <section className="max-w-[1240px] min-w-[500px] m-auto ">
+      <section className="max-w-[1240px] min-w-[400px] m-auto">
         <h2 className="md:text-2xl sm:text-xl text-md md:tracking-[18px] tracking-[10px] pb-2 uppercase">
           Contact
         </h2>

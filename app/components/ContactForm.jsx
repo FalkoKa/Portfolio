@@ -11,7 +11,7 @@ const ContactForm = () => {
   }
   return (
     <form
-      className="flex flex-col w-[70%] space-y-2 text-sm px-2 "
+      className="flex flex-col w-[80%] space-y-2 text-sm px-2 "
       onSubmit={handleSubmit}
     >
       <div className="flex flex-col space-x-0 space-y-2 md:flex-row md:space-x-2 md:space-y-0">

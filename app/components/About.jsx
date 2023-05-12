@@ -8,7 +8,7 @@ const About = () => {
         <h2 className="md:text-2xl sm:text-xl text-md md:tracking-[18px] tracking-[10px] pb-2 uppercase">
           About
         </h2>
-        <div className="px-40 flex flex-col gap-5">
+        <div className="px-10 md:px-40 flex flex-col gap-5">
           <p className="py-4 md:text-xl sm:text-md text-md">
             Glad to see you on my portfolio! I just finished my remote Software
             Engineering Imemrsive at General Assembly. I am now looking for
