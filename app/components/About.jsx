@@ -10,21 +10,20 @@ const About = () => {
         </h2>
         <div className="px-10 md:px-40 flex flex-col gap-5">
           <p className="py-4 md:text-xl sm:text-md text-md">
-            Glad to see you on my portfolio! I just finished my remote Software
-            Engineering Imemrsive at General Assembly. I am now looking for
-            opportunitues in the tech field as react developer and software
-            engineer! Feel free to check out some of my profects below this
-            section!
+            Thank you for visiting my portfolio! I just finished my remote
+            Software Engineering Imnersive at General Assembly. I am now looking
+            for opportunities in the tech industry as React Developer and
+            Software Engineer! Feel free to check out some of my projects below!
           </p>
           <p className="py-4 md:text-xl sm:text-md text-md">
-            Before I got into coding, I was studying law in Germany and an MBA
-            at RMIT in Vietnam (it is an Austrialian University though - long
-            story!).
+            Before I got into coding, I was studying law in Germany and Master
+            of Business Administration (MBA) at RMIT in Vietnam (yes, I studied
+            at an Austrialian University in Vietnam - fun story!).
           </p>
           <p className="py-4 md:text-xl sm:text-md text-md">
-            Why the career change? I love new challenges and felt that my values
-            have better alignment in this industry than in the business and
-            legal field.
+            Why the career change? I love new challenges and I find my values
+            align better with the work as a software engineer than in the legal
+            field.
           </p>
         </div>
       </section>
