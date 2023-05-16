@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Avatar from './../../public/assets/avatar.jpeg';
-import resume from './../../public/assets/falko_kammel_resume.pdf';
 
 const Hero = () => {
   return (
@@ -22,7 +21,11 @@ const Hero = () => {
           based in Germany
         </h3>
 
-        <Link href={resume} target="_blank" rel="noreferrer noopener">
+        <Link
+          href={'/falko_kammel_resume.pdf'}
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <button className="button text-md md:text-lg">
             Check out my resume
           </button>
