@@ -67,7 +67,11 @@ const Navbar = () => {
                 Contact
               </li>
             </Link>
-            <Link href="/">
+            <Link
+              href="https://cdn.sanity.io/files/3t5qnwyo/production/294517a641ad7f22a8a1dfe3006ee005adf31ec6.pdf"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <li className="ml-10 text-sm uppercase hover:border-b">Resume</li>
             </Link>
           </ul>
