@@ -9,11 +9,12 @@ import css from './../../public/assets/skills/css.png';
 import tailwindcss from './../../public/assets/skills/tailwind.png';
 import mongodb from './../../public/assets/skills/mongodb.png';
 import postgresql from './../../public/assets/skills/postgresql.png';
-import firebase from './../../public/assets/skills/firebase.png';
 import git from './../../public/assets/skills/git.png';
+import typescript from './../../public/assets/skills/typescript.png';
 
 export const skills = [
   ['Javascript', js],
+  ['TypeScript', typescript],
   ['ReactJS', reactjs],
   ['ExpressJS', expressjs],
   ['NodeJS', nodejs],
@@ -23,7 +24,6 @@ export const skills = [
   ['Tailwind CSS', tailwindcss],
   ['MongoDB', mongodb],
   ['PostgreSQL', postgresql],
-  ['Firebase', firebase],
   ['Git', git],
 ];
 

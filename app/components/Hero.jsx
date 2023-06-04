@@ -6,9 +6,9 @@ const Hero = () => {
   return (
     <div
       id="intro"
-      className="relative w-full h-screen flex flex-col md:flex-row justify-evenly space-y-5 items-center text-center md:text-left md:min-h-screen md:max-h-fit"
+      className="elative w-full h-screen flex flex-col md:flex-row md:p-4 justify-evenly space-y-5 items-center text-center md:text-left md:min-h-screen md:max-h-fit"
     >
-      <div className="max-w-[1240px] min-w-[400px]">
+      <div className="max-w-[1240px] min-w-[280px] mt-4">
         <h2 className="text-2xl md:text-4xl pb-2">Hi, I am</h2>
         <h1 className="md:text-7xl sm:text-6xl text-5xl font-bold pb-2">
           Falko
@@ -34,7 +34,7 @@ const Hero = () => {
         </Link>
       </div>
       <div className="m-0 md:ml-10">
-        <div className="h-[250px] w-[250px] md:h-96 md:w-96 mx-auto relative">
+        <div className="h-[250px] w-[250px] md:h-80 md:w-80 lg:h-96 lg:w-96 mx-auto relative">
           <Image
             src={Avatar}
             alt={'Avatar'}
