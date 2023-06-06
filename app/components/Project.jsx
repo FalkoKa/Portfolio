@@ -16,11 +16,19 @@ const Project = ({ project, selected }) => {
       <p className="text-sm">{project.description}</p>
       <TechStack stack={project.stack} />
       <div className="flex gap-2 absolute top-0 right-[10%] md:top-6 lg:top-8">
-        <Link href={project.githubLink}>
+        <Link
+          href={project.githubLink}
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <IoLogoGithub size={30} />
         </Link>
         {project.projectLink.length > 0 ? (
-          <Link href={project.projectLink}>
+          <Link
+            href={project.projectLink}
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <GoLinkExternal size={30} />
           </Link>
         ) : (

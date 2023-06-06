@@ -13,10 +13,12 @@ import servo from './../../public/assets/projects/servoapi.png';
 import etch from './../../public/assets/projects/etch-a-sketch.png';
 import tictactoe from './../../public/assets/projects/tic-tac-toe.png';
 import weatherapp from './../../public/assets/projects/weatherapp.png';
+import selectElement from './../../public/assets/projects/animation.gif';
 import { skills } from './Skills';
 
 const [
   js,
+  typescript,
   react,
   express,
   node,
@@ -26,11 +28,19 @@ const [
   tailwind,
   mongodb,
   postgres,
-  firebase,
   git,
 ] = skills;
 
 const projects = [
+  {
+    name: 'TypeScript React Select Component',
+    img: selectElement,
+    description:
+      'Single- and Multiselect component in TypeScript and React with vite app.',
+    githubLink: 'https://github.com/FalkoKa/typescript-react-select-component',
+    projectLink: 'https://chipper-truffle-6ef8dd.netlify.app/',
+    stack: [typescript, react, css],
+  },
   {
     name: 'E-Commerce Clone',
     img: ecom,
