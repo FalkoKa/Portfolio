@@ -11,6 +11,7 @@ import mongodb from './../../public/assets/skills/mongodb.png';
 import postgresql from './../../public/assets/skills/postgresql.png';
 import git from './../../public/assets/skills/git.png';
 import typescript from './../../public/assets/skills/typescript.png';
+import aws from './../../public/assets/skills/aws_cloud_practitioner.png';
 
 export const skills = [
   ['Javascript', js],
@@ -25,6 +26,7 @@ export const skills = [
   ['MongoDB', mongodb],
   ['PostgreSQL', postgresql],
   ['Git', git],
+  ['AWS Certified Cloud Practitioner', aws],
 ];
 
 const Skills = () => {
