@@ -12,6 +12,8 @@ import postgresql from './../../public/assets/skills/postgresql.png';
 import git from './../../public/assets/skills/git.png';
 import typescript from './../../public/assets/skills/typescript.png';
 import aws from './../../public/assets/skills/aws_cloud_practitioner.png';
+import docker from './../../public/assets/skills/docker.png';
+import graphql from './../../public/assets/skills/graphqllogo.png';
 
 export const skills = [
   ['Javascript', js],
@@ -23,10 +25,12 @@ export const skills = [
   ['HTML', html],
   ['CSS', css],
   ['Tailwind CSS', tailwindcss],
-  ['MongoDB', mongodb],
-  ['PostgreSQL', postgresql],
-  ['Git', git],
+  ['Docker', docker],
   ['AWS Certified Cloud Practitioner', aws],
+  ['GraphQL', graphql],
+  ['PostgreSQL', postgresql],
+  ['MongoDB', mongodb],
+  ['Git', git],
 ];
 
 const Skills = () => {
