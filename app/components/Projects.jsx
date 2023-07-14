@@ -40,7 +40,7 @@ const projects = [
     name: 'Project Mangement App',
     img: projectManagement,
     description:
-      'Simple fullstack Project Management App to practise GraphQL. Build with Node, Express and MongoDB on the backend - vite with Typescript, React and Tailwind on the frontend.',
+      'Simple fullstack Project Management App to practise GraphQL. Built with Node, Express and MongoDB on the backend - vite with Typescript, React and Tailwind on the frontend.',
     githubLink: 'https://github.com/FalkoKa/graphql-project-manager',
     projectLink: '',
     stack: [typescript, react, tailwind, node, graphql, express, mongodb],

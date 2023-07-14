@@ -12,13 +12,14 @@ const About = () => {
           <p className="py-4 md:text-xl sm:text-md text-md">
             Thank you for visiting my portfolio! I just finished my remote
             Software Engineering Imnersive at General Assembly. I am now looking
-            for opportunities in the tech industry as React Developer and
-            Software Engineer! Feel free to check out some of my projects below!
+            for opportunities in the tech industry as Junior Software Engineer
+            (focus on React, but backend is nice too)! Feel free to check out
+            some of my projects below!
           </p>
           <p className="py-4 md:text-xl sm:text-md text-md">
             Before I got into coding, I was studying law in Germany and Master
-            of Business Administration (MBA) at RMIT in Vietnam (yes, I studied
-            at an Austrialian University in Vietnam - fun story!).
+            of Business Administration (MBA) at RMIT University Vietnam (it is
+            an Australian University though).
           </p>
           <p className="py-4 md:text-xl sm:text-md text-md">
             Why the career change? I love new challenges and I find my values
