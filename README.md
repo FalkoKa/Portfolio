@@ -2,7 +2,7 @@
 
 This porfolio was created using Next.js with React.js and Tailwind CSS
 
-I used sanity.io for managing my resume (pdf).
+I used AWS S3 Buchet for managing my resume (pdf).
 
 ![Hero](./screenshots/hero_desktop.png)
 

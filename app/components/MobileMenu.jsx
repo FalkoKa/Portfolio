@@ -17,7 +17,7 @@ const MobileMenu = ({ handleNav }) => {
       </div>
       <div className="py-4 flex flex-col ">
         <ul className="uppercase">
-          <Link href="/#into">
+          <Link href="/#intro">
             <li className="py-4 text-sm">Intro</li>
           </Link>
           <Link href="/#about">
@@ -32,7 +32,7 @@ const MobileMenu = ({ handleNav }) => {
           <Link href="/#contact">
             <li className="py-4 text-sm">Contact</li>
           </Link>
-          <Link href="/">
+          <Link href="https://falko-kammel-bucket-234u01231k12312.s3.amazonaws.com/falko_kammel_resume.pdf">
             <li className="py-4 text-sm">Resume</li>
           </Link>
         </ul>

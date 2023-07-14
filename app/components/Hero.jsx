@@ -23,7 +23,7 @@ const Hero = () => {
 
         <Link
           href={
-            'https://cdn.sanity.io/files/3t5qnwyo/production/294517a641ad7f22a8a1dfe3006ee005adf31ec6.pdf'
+            'https://falko-kammel-bucket-234u01231k12312.s3.amazonaws.com/falko_kammel_resume.pdf'
           }
           target="_blank"
           rel="noreferrer noopener"
