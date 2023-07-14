@@ -14,6 +14,7 @@ import etch from './../../public/assets/projects/etch-a-sketch.png';
 import tictactoe from './../../public/assets/projects/tic-tac-toe.png';
 import weatherapp from './../../public/assets/projects/weatherapp.png';
 import selectElement from './../../public/assets/projects/animation.gif';
+import projectManagement from './../../public/assets/projects/project-management.gif';
 import { skills } from './Skills';
 
 const [
@@ -26,12 +27,24 @@ const [
   html,
   css,
   tailwind,
-  mongodb,
+  docker,
+  aws,
+  graphql,
   postgres,
+  mongodb,
   git,
 ] = skills;
 
 const projects = [
+  {
+    name: 'Project Mangement App',
+    img: projectManagement,
+    description:
+      'Simple fullstack Project Management App to practise GraphQL. Build with Node, Express and MongoDB on the backend - vite with Typescript, React and Tailwind on the frontend.',
+    githubLink: 'https://github.com/FalkoKa/graphql-project-manager',
+    projectLink: '',
+    stack: [typescript, react, tailwind, node, graphql, express, mongodb],
+  },
   {
     name: 'TypeScript React Select Component',
     img: selectElement,
@@ -135,7 +148,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="relative w-full md:h-screen py-12 flex flex-col items-center text-center"
+      className="relative w-full min-h-screen py-12 flex flex-col items-center text-center"
     >
       <div className="my-10 w-full overflow-hidden relative">
         <h2 className="md:text-2xl sm:text-xl text-md md:tracking-[18px] tracking-[10px] pb-2 uppercase text-center my-4">

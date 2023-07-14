@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="relative w-full md:h-screen flex items-center text-center"
+      className="relative w-full min-h-screen flex items-center text-center"
     >
       <section className="max-w-[1240px] min-w-[400px] m-auto ">
         <h2 className="md:text-2xl sm:text-xl text-md md:tracking-[18px] tracking-[10px] pb-2 uppercase">
