@@ -14,6 +14,7 @@ import typescript from './../../public/assets/skills/typescript.png';
 import aws from './../../public/assets/skills/aws_cloud_practitioner.png';
 import docker from './../../public/assets/skills/docker.png';
 import graphql from './../../public/assets/skills/graphqllogo.png';
+import jest from './../../public/assets/skills/jestlogo.png';
 
 export const skills = [
   ['Javascript', js],
@@ -30,6 +31,7 @@ export const skills = [
   ['GraphQL', graphql],
   ['PostgreSQL', postgresql],
   ['MongoDB', mongodb],
+  ['Jest', jest],
   ['Git', git],
 ];
 

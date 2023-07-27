@@ -32,6 +32,7 @@ const [
   graphql,
   postgres,
   mongodb,
+  jest,
   git,
 ] = skills;
 
