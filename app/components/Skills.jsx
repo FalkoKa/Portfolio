@@ -15,14 +15,16 @@ import aws from './../../public/assets/skills/aws_cloud_practitioner.png';
 import docker from './../../public/assets/skills/docker.png';
 import graphql from './../../public/assets/skills/graphqllogo.png';
 import jest from './../../public/assets/skills/jestlogo.png';
+import solidity from './../../public/assets/skills/solidity_logo.svg';
 
 export const skills = [
-  ['Javascript', js],
   ['TypeScript', typescript],
-  ['ReactJS', reactjs],
-  ['ExpressJS', expressjs],
-  ['NodeJS', nodejs],
+  ['Javascript', js],
   ['NextJS', nextjs],
+  ['ReactJS', reactjs],
+  ['NodeJS', nodejs],
+  ['ExpressJS', expressjs],
+  ['Solidity', solidity],
   ['HTML', html],
   ['CSS', css],
   ['Tailwind CSS', tailwindcss],

@@ -15,10 +15,10 @@ const Hero = () => {
         </h1>
 
         <h2 className="md:text-2xl sm:text-xl text-md tracking-[2px] pb-2">
-          Junior Software Engineer and React Developer
+          Software Engineer
         </h2>
         <h3 className="md:text-2xl sm:text-xl text-md tracking-[2px] pb-2">
-          based in Germany
+          currently based in Germany
         </h3>
 
         <Link

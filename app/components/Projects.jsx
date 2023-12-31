@@ -15,15 +15,18 @@ import tictactoe from './../../public/assets/projects/tic-tac-toe.png';
 import weatherapp from './../../public/assets/projects/weatherapp.png';
 import selectElement from './../../public/assets/projects/animation.gif';
 import projectManagement from './../../public/assets/projects/project-management.gif';
+import cleanTodoList from './../../public/assets/projects/clean-architecture-todo-list.gif';
+import resellDApp from './../../public/assets/projects/resell-dapp-gif.gif';
 import { skills } from './Skills';
 
 const [
-  js,
   typescript,
-  react,
-  express,
-  node,
+  js,
   nextjs,
+  react,
+  node,
+  express,
+  solidity,
   html,
   css,
   tailwind,
@@ -37,6 +40,24 @@ const [
 ] = skills;
 
 const projects = [
+  {
+    name: 'Ticket NFT Resell dApp',
+    img: resellDApp,
+    description:
+      'Full Stack dApp. Solidity NFT contract build upon the ERC-721 NON-FUNGIBLE TOKEN STANDARD. Project was built in a team effort within around one week. Aims to solve the problem of event owners/creators not benefiting from secondary/resell market.',
+    githubLink: 'https://github.com/FalkoKa/Re-sell-dapp',
+    projectLink: 'https://resell-dapp-frontend.vercel.app/',
+    stack: [solidity, typescript, nextjs, tailwind, node, mongodb, git],
+  },
+  {
+    name: 'Clean Architecture TODO List',
+    img: cleanTodoList,
+    description:
+      'Simple todo list app built to practise the Clean Architecture design pattern by Uncle Bob',
+    githubLink: 'https://github.com/FalkoKa/clean-architecture-todo-list',
+    projectLink: 'https://endearing-dolphin-19b1be.netlify.app/',
+    stack: [typescript, react, css, jest],
+  },
   {
     name: 'Project Mangement App',
     img: projectManagement,
