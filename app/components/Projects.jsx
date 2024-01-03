@@ -31,7 +31,8 @@ const [
   css,
   tailwind,
   docker,
-  aws,
+  awsSolutionsArchitect,
+  awsCloudPractitioner,
   graphql,
   postgres,
   mongodb,
@@ -44,7 +45,7 @@ const projects = [
     name: 'Ticket NFT Resell dApp',
     img: resellDApp,
     description:
-      'Full Stack dApp. Solidity NFT contract build upon the ERC-721 NON-FUNGIBLE TOKEN STANDARD. Project was built in a team effort within around one week. Aims to solve the problem of event owners/creators not benefiting from secondary/resell market.',
+      'Full Stack dApp. Solidity NFT contract built upon the ERC-721 NON-FUNGIBLE TOKEN STANDARD. Project was built in a team effort within around one week. Aims to solve the problem of event owners/creators not benefiting from secondary/resell market.',
     githubLink: 'https://github.com/FalkoKa/Re-sell-dapp',
     projectLink: 'https://resell-dapp-frontend.vercel.app/',
     stack: [solidity, typescript, nextjs, tailwind, node, mongodb, git],

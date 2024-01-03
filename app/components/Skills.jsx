@@ -11,7 +11,8 @@ import mongodb from './../../public/assets/skills/mongodb.png';
 import postgresql from './../../public/assets/skills/postgresql.png';
 import git from './../../public/assets/skills/git.png';
 import typescript from './../../public/assets/skills/typescript.png';
-import aws from './../../public/assets/skills/aws_cloud_practitioner.png';
+import awsSolutionsArchitect from './../../public/assets/skills/aws-certified-solutions-architect-associate.png';
+import awsCloudPractitioner from './../../public/assets/skills/aws_cloud_practitioner.png';
 import docker from './../../public/assets/skills/docker.png';
 import graphql from './../../public/assets/skills/graphqllogo.png';
 import jest from './../../public/assets/skills/jestlogo.png';
@@ -29,7 +30,8 @@ export const skills = [
   ['CSS', css],
   ['Tailwind CSS', tailwindcss],
   ['Docker', docker],
-  ['AWS Certified Cloud Practitioner', aws],
+  ['AWS Certified Solutions Architect - Associate', awsSolutionsArchitect],
+  ['AWS Certified Cloud Practitioner', awsCloudPractitioner],
   ['GraphQL', graphql],
   ['PostgreSQL', postgresql],
   ['MongoDB', mongodb],
@@ -39,7 +41,7 @@ export const skills = [
 
 const Skills = () => {
   return (
-    <div id="skills" className="relative w-full md:h-screen p-2">
+    <div id="skills" className="relative w-full min-h-screen p-2">
       <section className="max-w-[700px] m-auto text-center flex flex-col justify-center h-full">
         <h2 className="md:text-2xl sm:text-xl text-md md:tracking-[18px] tracking-[10px] pb-2 uppercase">
           Skills
